@@ -1,0 +1,35 @@
+# Site settings
+google_site_verification:
+
+repository: https://github.com/mitchellcash/gogovisuals.com.au
+
+name: GoGo Visuals • Video Production Company
+description: GoGo Visuals is a cool video production company.
+url:
+
+logo: img/logo.png
+
+# Build settings
+markdown: kramdown
+
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - vendor
+
+gems:
+    - jekyll-assets
+    - jekyll-sitemap
+    - jekyll-seo-tag
+    - uglifier
+
+assets:
+    compress:
+        css: true
+        js: true
+
+    prefix: "/assets"
+
+    sources:
+        - _assets/css
+        - _assets/js
