@@ -28,3 +28,14 @@ video#bgvid {
 .page-footer {
     padding-top: 0px;
 }
+
+.spok {
+    max-width: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  .embedded-video {
+    width: 240px;
+    height: 135px;
+  }
+}
