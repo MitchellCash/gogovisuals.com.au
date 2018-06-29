@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
-gem "jekyll"
+gem "jekyll", ">= 3.6.0"
 
-gem "html-proofer"
-gem "jekyll-assets"
-gem "jekyll-seo-tag"
-gem "jekyll-sitemap"
+gem "html-proofer", ">= 3.7.3"
+gem "jekyll-assets", ">= 2.3.2"
+gem "jekyll-seo-tag", ">= 2.3.0"
+gem "jekyll-sitemap", ">= 1.1.1"
 gem "uglifier"
